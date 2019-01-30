@@ -18,3 +18,7 @@ an osx slack app theme
 * Fonts Used:
     * Nunito
     * Source Code Pro
+* To fix light title bar on Mojave use the following cmd and then restart slack:
+```
+defaults write -app Slack NSRequiresAquaSystemAppearance -bool No
+```
